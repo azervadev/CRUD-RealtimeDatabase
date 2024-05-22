@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/student.layout">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        tools:text="Christopher"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tvSurname"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        tools:text="Robinson"
+        android:layout_gravity="center_vertical"
+
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tvCourse"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        tools:text="Course"
+        android:gravity="end"
+        android:layout_gravity="center_vertical"
+
+        android:layout_weight="0.5"/>
+
+    <TextView
+        android:id="@+id/tvAge"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        tools:text="Age"
+        android:gravity="end"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.4"/>
+
+    <ImageView
+        android:id="@+id/item.view.object"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_weight="0.3"
+        android:src="@drawable/ic_view_object"
+        app:tint="@color/black"/>
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+package com.azerva.crudfirebase.core
+
+enum class ErrorType {
+    ERROR_SAVE,
+    ERROR_UPDATE,
+    ERROR_DELETE,
+    ERROR_SAVE_EXCEPTION,
+    ERROR_UPDATE_EXCEPTION,
+    ERROR_DELETE_EXCEPTION,
+    SAVE_STUDENT,
+    UPDATE_STUDENT,
+    DELETE_STUDENT,
+    EMPTY_FIELDS,
+
+}
